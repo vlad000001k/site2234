@@ -1,0 +1,50 @@
+body{
+    background-color: rgba(179, 57, 216, 0.274);
+}
+
+p{
+    font-size: 50px;
+    border: solid 10px;
+    width: 50%;
+    text-align: center;
+    border-image: linear-gradient(rgb(162, 130, 238),rgb(36, 209, 200)) 30;
+    color:rgb(0, 255, 213);
+}
+
+table{
+    border: double 2px rgb(118, 172, 37);
+    width: 50%;
+}
+
+th,td{
+    border: solid 1px rgb(57, 219, 71);
+    width: 25%;
+    height: 1cm;
+    font-size: 24px;
+}
+
+tr:hover{
+    background-color: lightgray;
+}
+
+td:hover{
+    background-image: url(/img/200w.gif);
+    color: white;
+    text-align: center;
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+tr:nth-child(odd){
+    background-color: lightcyan;
+}
+
+tr:nth-child(even){
+    background-color: darkcyan;
+}
+
+caption{
+    font-size: 50px;
+    font-family: 'Rubik Moonrocks', cursive;
+    color: rgb(251, 255, 2);
+}

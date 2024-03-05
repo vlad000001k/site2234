@@ -1,0 +1,16 @@
+body {
+    background-color: rgb(0, 174, 255);   
+}
+
+p {
+    color: #fff;
+    font-size: 1in;
+    background: linear-gradient(45deg, red, blue);
+}
+
+div {
+    width: 300px;
+    height: 300px;
+    margin:  20px;
+    float: left;
+}

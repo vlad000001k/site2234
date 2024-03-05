@@ -1,0 +1,41 @@
+body {
+    background-image: url(/img/gif1.gif);
+    background-size: 450px;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-attachment: fixed;
+    background-color: aqua;
+}
+
+p {
+    font-size: 80px;
+    color: crimson ;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/001/984/880/non_2x/abstract-colorful-geometric-overlapping-background-and-texture-free-vector.jpg);
+    background-size: cover;
+}
+
+.bgImage {
+    width: 295px;
+    height: 170px;
+    background-size: cover;
+    border-radius: 20% 20%;
+    margin-left:  750px;
+    border: ridge 7px cornflowerblue;
+    background-image: url("/img/images.jpg");
+}
+
+.img1 {
+    height: 300px;
+    margin-top: 50px;
+    border-radius: 30% 15%;
+    margin-left: 670px;
+    box-shadow: 20px -20px 50px crimson;
+    border: solid 5px blanchedalmond;
+}
+
+.bgGif {
+    height: 370px;
+    width: 370px;
+    margin-top: 50px;
+    background-image:  url(/img/gif.gif);
+}
